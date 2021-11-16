@@ -1,0 +1,815 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-family: jost;
+    color: black;
+    font-size: 3em;
+    border-bottom: 4px solid #31FF9F;
+    
+}
+
+h3 {
+    font-family: jost;
+    color: black;
+    font-size: 1.7em;
+}
+
+h4 {
+    font-family: jost;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(97, 95, 95);
+}
+
+header .container-fluid {
+    background-color: #31FF9F;
+    color: rgb(0, 0, 0);
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2em;
+}
+
+
+header .container-fluid  {
+    padding-left: 0px!important;
+    padding-right: 0px;
+}
+
+header .container-fluid .col-md-4 {
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+header .container-fluid .col-md-4 a {
+    color: aqua;
+    background-color: black;
+    padding: 0.5px 6px;
+    border-radius: 0.6em;
+    margin-left: 1em;
+    border: 1px solid black;
+    font-family: 'Jost', sans-serif;
+    text-decoration: none;
+}
+
+header .container-fluid .col-md-4 a:hover {
+    color: red;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .container-fluid .col-md-4 button {
+    background-color: black;
+    color: white;
+    margin-right: 1em;
+    border: 2px solid wheat;
+    font-size: 0.8em;
+    padding: 0.4em 1em;
+	font-family: 'Jost', sans-serif;
+}
+
+header .container-fluid .col-md-4 button:hover {
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+}
+
+nav {
+    border: none!important;
+}
+
+nav li a {
+    color: black!important;
+}
+
+nav li a:hover {
+    transition: 0.7s;
+    border-radius: 1em;
+    color: white!important;
+    background-color: black!important;
+}
+
+nav .navbar-brand  {
+    position: relative;
+	z-index: 1;
+    margin-top: -1.8em;
+    padding-right: 11em;
+}
+
+
+                                 /* slider section start */
+
+
+
+.container-fluid .section-3 .carousel-caption h2 {
+    color: black;
+    font-size: 5em;
+}
+
+.container-fluid .section-3 .carousel-caption p {
+    color: black;
+    background-color: azure;
+    border-radius: 1em;
+    font-size: 2em;
+}
+
+.container-fluid .section-3 .carousel-caption button {
+    color: #31FF9F;
+    border: 4px solid white;
+    padding: 0.5em 2em;
+    font-size: 1em;
+    background-color: black;
+    border-radius: 2em;
+}
+
+.container-fluid .section-3 .carousel-caption button:hover {
+    color: black;
+    border: 4px solid black;
+    padding: 0.5em 2em;
+    transition: 0.9s;
+    font-size: 1em;
+    background-color: #31FF9F;
+    border-radius: 2em;
+}
+
+	/*		banner section start*/
+#banner {
+    padding-top: 5em;
+}
+#banner .col-md-4 a {
+	font-size: 1.6em;
+    background-color: #31FF9F;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0.2em 0.5em;
+}
+
+#banner .upper {
+    position: relative;
+	z-index: 1;
+	margin-top: -2.3em;
+}
+#banner .col-md-4 {
+    margin-bottom: 2em;
+}
+
+#banner .col-md-4 .goup img {
+    position: relative;
+	z-index: 1;
+	margin-top: -4.4em;
+}
+
+#banner .col-md-4 button {
+    font-size: 2em;
+    color: black;
+    font-family: jost;
+    background-color: black;
+    color: #31FF9F;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+#banner .col-md-4 button:hover {
+    color: black;
+    background-color: #31FF9F;
+    transition: 0.8s;
+}
+
+#banner .col-md-4 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+}
+
+            /* feature product section start */
+
+#product {
+    margin-top: 2em;
+}
+
+#product .col-md-3 .goup {
+    background-color: rgb(217, 221, 221);
+}
+
+#product .col-md-3 .goup h5 {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+#product .col-md-3 .goup mark {
+    background-color: rgb(253, 115, 2);
+    color: beige;
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+    padding-left: 8px;
+}
+
+#product .col-md-3 .goup a {
+    background-color: black;
+    color: aqua;
+    font-family: jost;
+    font-size: 1.3em;
+    border-radius: 3px;
+    padding: 0.3em 1.4em;
+}
+
+#product .col-md-3 .goup a:hover {
+    background-color: aqua;
+    color: black;
+    transition: 0.3s;
+}
+
+#product .col-md-12 {
+    margin-bottom: 2em;
+}
+
+#product .col-md-3 {
+    margin-bottom: 3em;
+}
+
+#product .col-md-3 .hovereffect {
+	overflow: hidden;
+}
+
+#product .col-md-3 .hovereffect img {
+	transition: all 0.4s ease;
+}
+
+#product .col-md-3 .hovereffect img:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+#product .col-md-3 .goup {
+    position: relative;
+    z-index: 1;
+    margin-top: -3em;
+}
+
+
+                     /* design section start */
+
+#design {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: rgb(217, 221, 221);
+}
+
+#design .col-md-3 {
+    padding: 1.5em 0em;
+}
+
+#design .col-md-3 img {
+    width: 45%;
+}
+
+
+                    /* review section start */
+
+#review .col-md-12 {
+    margin: 2em;
+}
+
+#review .col-md-4 .thumbnail {
+    border: none;
+    border-radius: 0px;
+    box-shadow: -webkit-box-shadow: 3px 4px 5px 2px rgba(0,0,0,0.62); 
+    box-shadow: 3px 4px 5px 2px rgba(0,0,0,0.62);
+   
+}
+
+#review .col-md-4 .thumbnail span {
+    font-size: 1.1em;
+    background-color: #31FF9F;
+    font-weight: bold;
+    color: black;
+    padding: 0.1em 0.3em;
+    border-radius: 1em;
+}
+
+
+                        /* footer part start */
+
+footer {
+    margin-top: 4em;
+    padding-top: 1em;
+    background-color: #31FF9F;
+    color: black;
+}
+
+footer #down {
+    background-color: black;
+}
+
+footer #down h3 {
+    color: white;
+}
+
+footer #down img {
+    width: 11%;
+    margin-right: 0.3em;
+}
+
+footer #down p {
+    font-weight: bold;
+    color: turquoise;
+}
+
+footer #down {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+footer address {
+    padding-left: 1em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .col-md-3 input {
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 2em;
+    color: black;
+    padding: 0.3em 1em;
+}
+
+footer .col-md-3 button {
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(5, 5, 5);
+    font-weight: bold;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+footer .col-md-3 button:hover {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+
+                            /* Catagory.html Start */
+
+#first {
+    padding-top: 7em;
+    padding-bottom: 7em;
+    background-image: url(../images/other/cover.jpg)
+}
+
+#first .col-md-6 h1 {
+    padding-left: 1em;
+    font-size: 4em;
+    font-family: jost;
+    color: white;
+}
+
+#first .col-md-6 .breadcrumb {
+    margin-top: 1em;
+    background-color: rgb(0, 0, 0, 0.33);
+    font-size: 1.8em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#first .col-md-6 .breadcrumb a {
+    color: aqua;
+}
+
+#first .col-md-6 .breadcrumb .active {
+    color: white;
+}
+
+#product2 {
+    margin-top: 4em;
+}
+
+#product2 .col-md-12 h2 {
+    margin-bottom: 1em;
+}
+
+
+#product2 .col-md-3 .goup {
+    background-color: rgb(217, 221, 221);
+    width: 90%;
+}
+
+#product2 .col-md-3 .goup h5 {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+#product2 .col-md-3 .goup mark {
+    background-color: rgb(253, 115, 2);
+    color: beige;
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+    padding-left: 8px;
+}
+
+#product2 .col-md-3 .goup a {
+    background-color: black;
+    color: aqua;
+    font-family: jost;
+    font-size: 1.3em;
+    padding: 0px;
+    border-radius: 3px;
+    padding: 0.3em 1.5em;
+}
+
+#product2 .col-md-3 .goup a:hover {
+    background-color: aqua;
+    color: black;
+    transition: 0.3s;
+}
+
+
+#product2 .col-md-3 {
+    margin-bottom: 3em;
+}
+
+#product2 .col-md-3 .hovereffect {
+	overflow: hidden;
+}
+
+#product2 .col-md-3 .hovereffect img {
+	transition: all 0.4s ease;
+}
+
+#product2 .col-md-3 .hovereffect img:hover {
+	transform: scale(1.07);
+	cursor: pointer;
+}
+
+#product2 .col-md-3 .goup {
+    position: relative;
+    z-index: 1;
+    margin-top: -3em;
+}
+
+
+
+                             /* banner1 style start */
+
+
+#banner1 {
+    background-color: rgb(217, 221, 221);
+    padding: 5em 0em; 
+}
+
+#banner1 img{
+    box-shadow: -webkit-box-shadow: 3px 4px 10px 7px rgba(0,0,0,0.63); 
+    box-shadow: 3px 4px 10px 7px rgba(0,0,0,0.63);
+}
+
+.container-fluid .pagination li a {
+    background-color: black!important;
+    color: #31FF9F!important;
+    font-size: 1.4em;
+    border: 2px solid white;
+    border-radius: 1.6em;
+    font-family: jost;
+}
+
+.container-fluid .pagination li a:hover {
+    background-color: #31FF9F!important;
+    color: black!important;
+    transition: 0.4s;
+}
+
+
+                                /* about.html part style start */
+
+#about {
+    margin-top: 5em;
+}
+
+#about p {
+    font-family: jost;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+#team {
+    margin-top: 5em;
+}
+
+#team .col-md-3 .thumbnail {
+    border-radius: 0px;
+    border: none;
+    box-shadow: -webkit-box-shadow: 1px 2px 4px 2px rgba(0,0,0,0.82); 
+    box-shadow: 1px 2px 4px 2px rgba(0,0,0,0.82);
+}
+
+#team .thumbnail .other {
+    position: relative;
+	z-index: 1;
+	margin-top: -10px;
+    background-color: black;
+    color: rgb(254, 255, 254);
+}
+
+#team .thumbnail .other span {
+    font-size: 1.2em;
+}
+
+#team .thumbnail .other h4 {
+    color: #31FF9F;
+    padding-top: 0.1em;
+    border-bottom: 2px solid #31FF9F;
+}
+
+#team .thumbnail .team-description p {
+    font-family: jost;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+#team .thumbnail button {
+    background-color: black;
+    color: #31FF9F;
+    font-family: jost;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+    margin-bottom: 0.4em;
+}
+
+#team .thumbnail button:hover {
+    background-color: #31FF9F;
+    color: black;
+    transition: 0.4s;
+}
+
+
+
+                            /* blog.html Style start */
+
+#section-4 {
+    margin-top: 5em;
+}
+
+#section-4 .col-md-8 span {
+    font-size: 2em;
+}
+
+#section-4 .col-md-8 .media span {
+    font-size: 1.1em;
+    color: black;
+    background-color: #31FF9F;
+    border-radius: 5px;
+    font-family: jost;
+
+}
+#section-4 .col-md-8 .media p {
+    font-family: jost;
+}
+#section-4 .col-md-8 .media button {
+    color: #31FF9F;
+    background-color: black;
+    font-size: 1em;
+    margin-top: 0.4em;
+    font-family: jost;
+    border-radius: 0.5em;
+}
+
+
+#section-4 .col-md-8 .media .hovereffect {
+	overflow: hidden;
+}
+
+#section-4 .col-md-8 .media .hovereffect img {
+	transition: all 1s ease;
+}
+
+#section-4 .col-md-8 .media .hovereffect img:hover {
+	transform: scale(1.3);
+	cursor: pointer;
+}
+
+#section-4 .thumbnail .hovereffect {
+	overflow: hidden;
+}
+
+#section-4 .thumbnail .hovereffect img {
+	transition: all 1s ease;
+}
+
+#section-4 .thumbnail .hovereffect img:hover {
+	transform: scale(1.3);
+	cursor: pointer;
+}
+
+
+
+#section-4 .col-md-8 .media button:hover {
+    background-color: #31FF9F;
+    color: black;
+    transition: 0.4s;
+}
+
+#section-4 .col-md-8 .media img {
+    padding-top: 1em;
+}
+
+#section-4 .col-md-4 span {
+    font-size: 2em;
+}
+
+#section-4 .col-md-4 .thumbnail {
+    border: none;
+}
+
+#section-4 .col-md-4 .thumbnail span {
+    font-size: 1.1em;
+    color: black;
+    background-color: #31FF9F;
+    border-radius: 5px;
+    font-family: jost;
+}
+
+#section-4 .col-md-4 .thumbnail button {
+    color: #31FF9F;
+    background-color: black;
+    font-size: 1em;
+    margin-top: 0.4em;
+    font-family: jost;
+    border-radius: 0.5em;
+}
+
+#section-4 .col-md-4 .thumbnail button:hover {
+    background-color: #31FF9F;
+    color: black;
+    transition: 0.4s;
+}
+
+                             /* contact.html Style START */
+
+#contact {
+    margin-top: 5em;
+    margin-bottom: 3em;
+    background-color: rgb(217, 221, 221);
+    padding: 2em 0em;
+}
+
+#contact2 p {
+    font-family: jost;
+    font-size: 1.2em;
+    text-align: justify;
+}
+#contact2 .col-md-8 p {
+    margin-left: 1em;
+}
+
+#contact2 .col-md-8 h2 {
+    margin-left: 0.4em;
+}
+
+#contact2 .form-group  input {
+    color: black;
+    border: 2px solid rgb(36, 245, 147)!important;
+}
+
+#contact2 .form-group textarea {
+    color: black;
+    border: 2px solid rgb(36, 245, 147)!important;
+}
+
+#contact2 .col-md-12 button {
+    background-color: black;
+    color: #31FF9F;
+    font-size: 1.3em;
+    font-family: 
+}
+
+#contact2 .col-md-12 button:hover {
+    color: black;
+    background-color: #31FF9F;
+    transition: 0.5s;
+}
+
+                             /* CART.HTML SRYLE START */
+
+#cart {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    color: black;
+    
+}
+
+#cart .info {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: jost;
+}
+
+#cart table input {
+    border: 2px solid rgb(31, 243, 144);
+    border-radius: 4px;
+}
+
+#cart2 h3 {
+    font-size: 2.2em;
+}
+
+#cart2 p {
+    font-size: 1.1em;
+}
+
+#cart2 label {
+    font-family: jost;
+    font-size: 1.2em;
+}
+
+#cart2 input {
+    color: black;
+    border: 2px solid rgb(36, 245, 147)!important;
+}
+
+#cart2 button {
+    background-color: black;
+    color: #31FF9F;
+    font-size: 1.3em;
+    font-family: jost;
+    border-radius: 0.5em;
+    border: 2px solid black;
+}
+
+#cart2 button:hover {
+    color: black;
+    background-color: #31FF9F;
+    transition: 0.5s;
+}
+
+
+#cart2 table .danger {
+    color: black;
+    font-family: jost;
+    font-size: 1.1em;
+}
+
+#cart2 table {
+    color: black;
+}
+
+
+
+                            /* cheakout.html style start */
+
+#cheakout {
+    margin-top: 5em;
+    margin-bottom: 3em;
+}
+
+#cheakout label {
+    font-family: jost;
+    font-size: 1.2em;
+    font-weight: 100;
+    color: black;
+}
+
+#cheakout input {
+    border: 2px solid rgb(29, 243, 143);
+}
+
+#cheakout select {
+    border: 2px solid rgb(29, 243, 143);
+}
+
+#cheakout button {
+    background-color: black;
+    color: #31FF9F;
+    font-size: 1.3em;
+    font-family: jost;
+    border-radius: 0.5em;
+    border: 2px solid black;
+}
+
+#cheakout button:hover {
+    color: black;
+    background-color: #31FF9F;
+    transition: 0.5s;
+}
+
+#cheakout table .danger {
+    font-family: jost;
+    color: black;
+    font-size: 1.2em;
+}
